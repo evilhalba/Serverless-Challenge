@@ -1,0 +1,25 @@
+{
+  "name": "Serverless-Challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:evilhalba/Serverless-Challenge.git",
+  "author": "Eduardo Vilhalba <vilhalba.20000@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.88",
+    "@types/jest": "^27.0.3",
+    "aws-sdk": "^2.1048.0",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "pg": "^8.7.1",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.6.0",
+    "typeorm": "^0.2.41",
+    "uuidv4": "^6.2.12"
+  }
+}
