@@ -1,8 +1,5 @@
-import AppError from '../../../shared/errors/AppError';
 import FakeEmployeeRepository from "../repositories/fakes/FakeEmployeeRepository";
 import CreateEmployeeService from "./CreateEmployeeService";
-import Employee from '../infra/typeorm/entities/Employee';
-import { uuid } from 'uuidv4';
 import UpdateEmployeeService from './UpdateEmployeeService';
 
 let fakeEmployeeRepository: FakeEmployeeRepository
