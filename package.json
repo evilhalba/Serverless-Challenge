@@ -5,6 +5,10 @@
   "repository": "git@github.com:evilhalba/Serverless-Challenge.git",
   "author": "Eduardo Vilhalba <vilhalba.20000@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.88",
     "@types/jest": "^27.0.3",
